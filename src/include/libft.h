@@ -40,6 +40,7 @@ void	ft_putnbr_fd(int n, int fd);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
 int		ft_atoi(const char *str);
+char	*ft_itoa(int n);
 char	**ft_split(char const *s, char c);
 
 #endif
